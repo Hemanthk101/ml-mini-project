@@ -1,0 +1,3 @@
+{
+  "text": "Two real GPU requests passed. The first included execution tracing; the warm request took 3.80 seconds to produce 3.4 seconds of audio, giving an RTF of 1.12. Queue wait is reported separately. All eight metric tests passed, and empty input was rejected correctly."
+}

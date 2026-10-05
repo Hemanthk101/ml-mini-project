@@ -1,0 +1,17 @@
+[
+  "text_test.test_cleaner_pipelines",
+  "text_test.test_collapse_whitespace",
+  "text_test.test_convert_to_ascii",
+  "text_test.test_expand_abbreviations",
+  "text_test.test_expand_numbers",
+  "text_test.test_lowercase",
+  "text_test.test_sequence_to_text",
+  "text_test.test_symbols",
+  "text_test.test_text_to_sequence",
+  "numbers_test.test_normalize_dates",
+  "numbers_test.test_normalize_money",
+  "numbers_test.test_normalize_numbers",
+  "numbers_test.test_normalize_ordinals",
+  "cmudict_test.test_cmudict",
+  "cmudict_test.test_cmudict_no_keep_ambiguous"
+]

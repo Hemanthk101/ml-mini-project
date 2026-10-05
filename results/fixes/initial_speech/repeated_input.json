@@ -1,0 +1,79 @@
+{
+  "id": "197180e720ab4fc28fe773c0a6a49107",
+  "text": "Go, go, go. Please do not stop.",
+  "status": "completed",
+  "message": "Generating speech and acoustic features\u2026",
+  "metrics": {
+    "inference_seconds": 1.9725734999999958,
+    "synthesis_seconds": 9.370794999999994,
+    "latency_seconds": 9.539949600000007,
+    "queue_seconds": 0.0006551000000030172,
+    "audio_seconds": 3.4405,
+    "rtf": 2.7236724313326532,
+    "rtfx": 0.36715134628385343,
+    "requests_per_second": 0.10671453169128133
+  },
+  "audio": "/runs/197180e720ab4fc28fe773c0a6a49107.wav",
+  "plot": "/runs/197180e720ab4fc28fe773c0a6a49107.png",
+  "report": "/runs/197180e720ab4fc28fe773c0a6a49107.json",
+  "checkpoint": "checkpoints/tacotron-20180906/model.ckpt",
+  "seed": 2026,
+  "gpu_verified": true,
+  "trace_included": false,
+  "sample_rate": 20000,
+  "mel_shape": [
+    1,
+    170,
+    80
+  ],
+  "reconstruction": "Upstream librosa Griffin-Lim, original power and iterations",
+  "segments": [
+    {
+      "text": "go,",
+      "audio_seconds": 0.4783,
+      "attention": {
+        "decoder_steps": 36,
+        "eos_attention": 0.9870812296867371,
+        "character_coverage": 1.0,
+        "backward_jumps": 0,
+        "reached_eos": true
+      }
+    },
+    {
+      "text": "go,",
+      "audio_seconds": 0.46915,
+      "attention": {
+        "decoder_steps": 36,
+        "eos_attention": 0.9870812296867371,
+        "character_coverage": 1.0,
+        "backward_jumps": 0,
+        "reached_eos": true
+      }
+    },
+    {
+      "text": "go.",
+      "audio_seconds": 0.4518,
+      "attention": {
+        "decoder_steps": 20,
+        "eos_attention": 0.9006033539772034,
+        "character_coverage": 0.75,
+        "backward_jumps": 0,
+        "reached_eos": true
+      }
+    },
+    {
+      "text": "please do not stop.",
+      "audio_seconds": 1.58125,
+      "attention": {
+        "decoder_steps": 34,
+        "eos_attention": 0.9992583394050598,
+        "character_coverage": 1.0,
+        "backward_jumps": 1,
+        "reached_eos": true
+      }
+    }
+  ],
+  "peak_headroom": 0.92,
+  "attention_stop": true,
+  "transcript_evaluation": null
+}

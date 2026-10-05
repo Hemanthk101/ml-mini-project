@@ -1,0 +1,23 @@
+{
+  "checkpoint": "logs-fixes/model.ckpt-3",
+  "examples": [
+    {
+      "file": "ljspeech-spec-00003.npy",
+      "text": "This Mr. Canning had left his widow a life interest in two thousand pounds so long as she remained unmarried.",
+      "frames": 598,
+      "original_padded_loss": 0.8575786352157593,
+      "valid_frame_mel_l1": 0.3618476688861847,
+      "valid_frame_linear_l1": 0.49775756895542145,
+      "valid_frame_loss": 0.8596052378416061
+    }
+  ],
+  "mean_valid_frame_loss": 0.8596052378416061,
+  "evaluation_seconds": 25.0948287,
+  "gpu_verified": true,
+  "teacher_forced": true,
+  "dropout_disabled": true,
+  "batchnorm_updates_disabled": true,
+  "training_overlap": false,
+  "speech_quality": "Not inferred from acoustic loss; run benchmark_quality.py and human listening separately.",
+  "scope": "New-run validation only; LJSpeech-pretrained checkpoints may have dataset leakage."
+}

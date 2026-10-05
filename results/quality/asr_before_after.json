@@ -1,0 +1,44 @@
+[
+  {
+    "file": "tf9.wav",
+    "reference": "Two real GPU requests passed. The first included execution tracing; the warm request took 3.80 seconds to produce 3.4 seconds of audio, giving an RTF of 1.12. Queue wait is reported separately. All eight metric tests passed, and empty input was rejected correctly.",
+    "transcript": "Two real-poor requests passed afforded excluded ex-fooded ex-fooded ex-fooded execution tracing. The war request of 3.4444.2 tests passed, and empty input was rejected.",
+    "recognizer": "openai/whisper-tiny.en (cached; CPU; no reference prompt)",
+    "metrics": {
+      "precision": 0.41379310344827586,
+      "recall": 0.2608695652173913,
+      "f1": 0.32,
+      "wer": 0.7391304347826086,
+      "cer": 0.5525291828793775,
+      "correct": 12,
+      "substitutions": 17,
+      "deletions": 17,
+      "insertions": 0,
+      "reference_words": 46,
+      "transcript_words": 29,
+      "scope": "Word-match precision/recall/F1 from supplied transcript; not a MOS score.",
+      "normalization": "Unicode NFKC, case-insensitive, punctuation removed; word order retained."
+    }
+  },
+  {
+    "file": "improved9.wav",
+    "reference": "Two real GPU requests passed. The first included execution tracing; the warm request took 3.80 seconds to produce 3.4 seconds of audio, giving an RTF of 1.12. Queue wait is reported separately. All eight metric tests passed, and empty input was rejected correctly.",
+    "transcript": "Two real GPE requests passed. The first included execution tracing. The warm request took 3.80 seconds to produce 3.4 seconds of audio, giving an RTF of 1.12. Ku weight is reported separately. All eight metric tests passed, and empty input was rejected correctly.",
+    "recognizer": "openai/whisper-tiny.en (cached; CPU; no reference prompt)",
+    "metrics": {
+      "precision": 0.9347826086956522,
+      "recall": 0.9347826086956522,
+      "f1": 0.9347826086956522,
+      "wer": 0.06521739130434782,
+      "cer": 0.0311284046692607,
+      "correct": 43,
+      "substitutions": 3,
+      "deletions": 0,
+      "insertions": 0,
+      "reference_words": 46,
+      "transcript_words": 46,
+      "scope": "Word-match precision/recall/F1 from supplied transcript; not a MOS score.",
+      "normalization": "Unicode NFKC, case-insensitive, punctuation removed; word order retained."
+    }
+  }
+]

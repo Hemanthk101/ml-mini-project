@@ -1,0 +1,25 @@
+{
+  "source": "https://data.keithito.com/data/speech/LJSpeech-1.1.tar.bz2",
+  "selection": "first eight WAV members in official archive",
+  "samples": 8,
+  "ids": [
+    "LJ005-0133",
+    "LJ007-0048",
+    "LJ011-0265",
+    "LJ036-0043",
+    "LJ037-0129",
+    "LJ039-0220",
+    "LJ041-0060",
+    "LJ048-0274"
+  ],
+  "sha256": {
+    "LJ005-0133": "be4cd24c6373f1cb34466634f472f06820d247bb093f1951ecaef0655d14e376",
+    "LJ007-0048": "09842f121b47d9c62e78f963bc05d00aed07448d74755738b004f7b782829ed8",
+    "LJ011-0265": "fa894095ff5ef72d8c2e5966f89a2bcf252e6303f9e3a4953e578c04abb15b96",
+    "LJ036-0043": "c0c9b3e991dd25906eff78c5a735b651271128abcd89e8d1fd10766f2e4389ba",
+    "LJ037-0129": "4dfff534f12b62a70716cd4782280f385c360087182840df75f4247df08546c6",
+    "LJ039-0220": "286df2dd18d051319b8d25cfc71ef4c6d9111ee31520f9ef3afc8ea9f3328e24",
+    "LJ041-0060": "dffdcb996f8449a6bad60e4903fdd030d1253656fecfc34bc7cfbf0459beda8d",
+    "LJ048-0274": "07e0c2a51d8ab41bb04b0c67d3dd9bd64ca3af96608cbdabb62626523453f841"
+  }
+}

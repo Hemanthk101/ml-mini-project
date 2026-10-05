@@ -1,0 +1,58 @@
+{
+  "id": "21d4be6fa1174aa6b931486d2c9537a0",
+  "text": "The GPU processed 3 requests in 2 seconds. RTF measures synthesis speed.",
+  "status": "completed",
+  "message": "Generating speech and acoustic features\u2026",
+  "metrics": {
+    "inference_seconds": 2.0844525999999917,
+    "synthesis_seconds": 9.487272000000004,
+    "latency_seconds": 9.6979264,
+    "queue_seconds": 0.0006290000000035434,
+    "audio_seconds": 7.272,
+    "rtf": 1.304630363036304,
+    "rtfx": 0.7665006336911176,
+    "requests_per_second": 0.1054043775702857
+  },
+  "audio": "/runs/21d4be6fa1174aa6b931486d2c9537a0.wav",
+  "plot": "/runs/21d4be6fa1174aa6b931486d2c9537a0.png",
+  "report": "/runs/21d4be6fa1174aa6b931486d2c9537a0.json",
+  "checkpoint": "checkpoints/tacotron-20180906/model.ckpt",
+  "seed": 2026,
+  "gpu_verified": true,
+  "trace_included": false,
+  "sample_rate": 20000,
+  "mel_shape": [
+    1,
+    265,
+    80
+  ],
+  "reconstruction": "Upstream librosa Griffin-Lim, original power and iterations",
+  "segments": [
+    {
+      "text": "the gee pee you processed three requests in two seconds.",
+      "audio_seconds": 4.13675,
+      "attention": {
+        "decoder_steps": 73,
+        "eos_attention": 0.9997778534889221,
+        "character_coverage": 1.0,
+        "backward_jumps": 5,
+        "reached_eos": true
+      }
+    },
+    {
+      "text": "ar tee eff measures synthesis speed.",
+      "audio_seconds": 2.91525,
+      "attention": {
+        "decoder_steps": 53,
+        "eos_attention": 0.9991828799247742,
+        "character_coverage": 0.972972972972973,
+        "backward_jumps": 2,
+        "reached_eos": true
+      }
+    }
+  ],
+  "peak_headroom": 0.92,
+  "attention_stop": true,
+  "phrase_attempts": 2,
+  "transcript_evaluation": null
+}

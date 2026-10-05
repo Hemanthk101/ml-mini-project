@@ -1,0 +1,63 @@
+{
+  "gpu_synthesis_cases": 5,
+  "all_speech_gates_passed": true,
+  "aggregate_spoken_wer": 0.05434782608695652,
+  "decoder_steps": 814,
+  "old_fixed_cap_steps_for_same_phrase_count": 3400,
+  "sample_checks": [
+    {
+      "case": "short",
+      "frames": 64704,
+      "peak_pcm": 30145
+    },
+    {
+      "case": "continuity",
+      "frames": 64366,
+      "peak_pcm": 30145
+    },
+    {
+      "case": "repeated_input",
+      "frames": 68810,
+      "peak_pcm": 30145
+    },
+    {
+      "case": "technical",
+      "frames": 145440,
+      "peak_pcm": 30145
+    },
+    {
+      "case": "paragraph",
+      "frames": 489159,
+      "peak_pcm": 30145
+    }
+  ],
+  "unit_test_count": 28,
+  "upstream_test_functions": 15,
+  "scope": "Diagnostic suite, not a human listening study or broad generalization proof.",
+  "fresh_training_steps": 3,
+  "peak_prepared_batch_bytes": 3359752,
+  "held_out_validation_examples": 1,
+  "validation_gpu_verified": true,
+  "training_overlap": false,
+  "audio_sha256": {
+    "continuity.wav": "72bb36daaba75cc57c957e77e5d5ccc9ba41bec044d4e090d2f5d98cb2fd680d",
+    "paragraph.wav": "2c87e97055d8c6bf611422dc4769e733b36567835a36f8c23d52911630aa7312",
+    "repeated_input.wav": "1396641276118304cbef49d8dcf7d08c3683a40b1b1a5d7c907e01a679e53f18",
+    "short.wav": "6d032aea939d873cca9340b84428b9e4f8f699a3cbf59a9de9fecf1fde39347b",
+    "technical.wav": "990115e19014030008bcd826ce305f7ad9be7713ea54c570e808712773a018b8"
+  },
+  "final_app_audio_matches_recognized_audio": true,
+  "final_app_completed": 5,
+  "final_app_failed": 0,
+  "final_paragraph_timing": {
+    "inference_seconds": 5.564638000000016,
+    "synthesis_seconds": 24.958314700000003,
+    "latency_seconds": 25.161483599999997,
+    "queue_seconds": 0.00031009999999298543,
+    "audio_seconds": 24.45795,
+    "rtf": 1.0204581618655693,
+    "rtfx": 0.9799519836970402,
+    "requests_per_second": 0.04006680787625456
+  },
+  "report_and_deck_timing_evidence": "results/fixes/initial_speech/"
+}

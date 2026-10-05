@@ -1,0 +1,269 @@
+[
+  {
+    "case": "short",
+    "text": "The quick brown fox jumps over the lazy dog.",
+    "metrics": {
+      "inference_seconds": 23.125904200000004,
+      "synthesis_seconds": 34.24467369999999,
+      "latency_seconds": 35.1891069,
+      "queue_seconds": 0.00028710000000131686,
+      "audio_seconds": 3.2352,
+      "rtf": 10.585025253461918,
+      "rtfx": 0.09447308589773482,
+      "requests_per_second": 0.029201621506470953
+    },
+    "segments": [
+      {
+        "text": "the quick brown fox jumps over the lazy dog.",
+        "audio_seconds": 3.2352,
+        "attention": {
+          "decoder_steps": 61,
+          "eos_attention": 0.9996379613876343,
+          "character_coverage": 0.9777777777777777,
+          "backward_jumps": 2,
+          "reached_eos": true
+        }
+      }
+    ]
+  },
+  {
+    "case": "continuity",
+    "text": "Hello. Welcome to the speech synthesis lab.",
+    "metrics": {
+      "inference_seconds": 1.6987782000000067,
+      "synthesis_seconds": 6.598821999999998,
+      "latency_seconds": 6.853031799999997,
+      "queue_seconds": 0.00201669999999865,
+      "audio_seconds": 3.2183,
+      "rtf": 2.0504061150296735,
+      "rtfx": 0.4877082606562203,
+      "requests_per_second": 0.15154219950166867
+    },
+    "segments": [
+      {
+        "text": "hello.",
+        "audio_seconds": 0.45945,
+        "attention": {
+          "decoder_steps": 20,
+          "eos_attention": 0.9358258247375488,
+          "character_coverage": 0.8571428571428571,
+          "backward_jumps": 0,
+          "reached_eos": true
+        }
+      },
+      {
+        "text": "welcome to the speech synthesis lab.",
+        "audio_seconds": 2.53885,
+        "attention": {
+          "decoder_steps": 49,
+          "eos_attention": 0.9993731379508972,
+          "character_coverage": 0.972972972972973,
+          "backward_jumps": 1,
+          "reached_eos": true
+        }
+      }
+    ]
+  },
+  {
+    "case": "repeated_input",
+    "text": "Go, go, go. Please do not stop.",
+    "metrics": {
+      "inference_seconds": 1.9725734999999958,
+      "synthesis_seconds": 9.370794999999994,
+      "latency_seconds": 9.539949600000007,
+      "queue_seconds": 0.0006551000000030172,
+      "audio_seconds": 3.4405,
+      "rtf": 2.7236724313326532,
+      "rtfx": 0.36715134628385343,
+      "requests_per_second": 0.10671453169128133
+    },
+    "segments": [
+      {
+        "text": "go,",
+        "audio_seconds": 0.4783,
+        "attention": {
+          "decoder_steps": 36,
+          "eos_attention": 0.9870812296867371,
+          "character_coverage": 1.0,
+          "backward_jumps": 0,
+          "reached_eos": true
+        }
+      },
+      {
+        "text": "go,",
+        "audio_seconds": 0.46915,
+        "attention": {
+          "decoder_steps": 36,
+          "eos_attention": 0.9870812296867371,
+          "character_coverage": 1.0,
+          "backward_jumps": 0,
+          "reached_eos": true
+        }
+      },
+      {
+        "text": "go.",
+        "audio_seconds": 0.4518,
+        "attention": {
+          "decoder_steps": 20,
+          "eos_attention": 0.9006033539772034,
+          "character_coverage": 0.75,
+          "backward_jumps": 0,
+          "reached_eos": true
+        }
+      },
+      {
+        "text": "please do not stop.",
+        "audio_seconds": 1.58125,
+        "attention": {
+          "decoder_steps": 34,
+          "eos_attention": 0.9992583394050598,
+          "character_coverage": 1.0,
+          "backward_jumps": 1,
+          "reached_eos": true
+        }
+      }
+    ]
+  },
+  {
+    "case": "technical",
+    "text": "The GPU processed 3 requests in 2 seconds. RTF measures synthesis speed.",
+    "metrics": {
+      "inference_seconds": 2.1383287000000024,
+      "synthesis_seconds": 8.4373432,
+      "latency_seconds": 8.645109700000006,
+      "queue_seconds": 0.0005617000000057715,
+      "audio_seconds": 7.272,
+      "rtf": 1.1602507150715071,
+      "rtfx": 0.8618826836390867,
+      "requests_per_second": 0.11852072107248167
+    },
+    "segments": [
+      {
+        "text": "the gee pee you processed three requests in two seconds.",
+        "audio_seconds": 4.13675,
+        "attention": {
+          "decoder_steps": 73,
+          "eos_attention": 0.9997778534889221,
+          "character_coverage": 1.0,
+          "backward_jumps": 5,
+          "reached_eos": true
+        }
+      },
+      {
+        "text": "ar tee eff measures synthesis speed.",
+        "audio_seconds": 2.91525,
+        "attention": {
+          "decoder_steps": 53,
+          "eos_attention": 0.9991828799247742,
+          "character_coverage": 0.972972972972973,
+          "backward_jumps": 2,
+          "reached_eos": true
+        }
+      }
+    ]
+  },
+  {
+    "case": "paragraph",
+    "text": "Two real GPU requests passed. The first included execution tracing; the warm request took 3.80 seconds to produce 3.4 seconds of audio, giving an RTF of 1.12. Queue wait is reported separately. All eight metric tests passed, and empty input was rejected correctly.",
+    "metrics": {
+      "inference_seconds": 5.00005569999999,
+      "synthesis_seconds": 24.7458065,
+      "latency_seconds": 24.92499190000001,
+      "queue_seconds": 0.0007233000000042011,
+      "audio_seconds": 24.45795,
+      "rtf": 1.0117694451088501,
+      "rtfx": 0.9883674633922317,
+      "requests_per_second": 0.04041088739621398
+    },
+    "segments": [
+      {
+        "text": "two real gee pee you requests passed.",
+        "audio_seconds": 2.99595,
+        "attention": {
+          "decoder_steps": 55,
+          "eos_attention": 0.999333918094635,
+          "character_coverage": 0.9736842105263158,
+          "backward_jumps": 3,
+          "reached_eos": true
+        }
+      },
+      {
+        "text": "the first included execution tracing;",
+        "audio_seconds": 2.7112,
+        "attention": {
+          "decoder_steps": 52,
+          "eos_attention": 0.999195396900177,
+          "character_coverage": 0.9473684210526315,
+          "backward_jumps": 1,
+          "reached_eos": true
+        }
+      },
+      {
+        "text": "the warm request took three point eighty seconds to produce three point four",
+        "audio_seconds": 5.04355,
+        "attention": {
+          "decoder_steps": 87,
+          "eos_attention": 0.9998207688331604,
+          "character_coverage": 1.0,
+          "backward_jumps": 3,
+          "reached_eos": true
+        }
+      },
+      {
+        "text": "seconds of audio,",
+        "audio_seconds": 1.376,
+        "attention": {
+          "decoder_steps": 27,
+          "eos_attention": 0.9983171224594116,
+          "character_coverage": 0.9444444444444444,
+          "backward_jumps": 0,
+          "reached_eos": true
+        }
+      },
+      {
+        "text": "giving an ar tee eff of one point twelve.",
+        "audio_seconds": 2.93905,
+        "attention": {
+          "decoder_steps": 56,
+          "eos_attention": 0.9972499012947083,
+          "character_coverage": 0.9761904761904762,
+          "backward_jumps": 2,
+          "reached_eos": true
+        }
+      },
+      {
+        "text": "queue wait is reported separately.",
+        "audio_seconds": 2.635,
+        "attention": {
+          "decoder_steps": 50,
+          "eos_attention": 0.9999079704284668,
+          "character_coverage": 0.9714285714285714,
+          "backward_jumps": 2,
+          "reached_eos": true
+        }
+      },
+      {
+        "text": "all eight metric tests passed,",
+        "audio_seconds": 2.47145,
+        "attention": {
+          "decoder_steps": 47,
+          "eos_attention": 0.9969122409820557,
+          "character_coverage": 0.9354838709677419,
+          "backward_jumps": 3,
+          "reached_eos": true
+        }
+      },
+      {
+        "text": "and empty input was rejected correctly.",
+        "audio_seconds": 3.22575,
+        "attention": {
+          "decoder_steps": 58,
+          "eos_attention": 0.9995172023773193,
+          "character_coverage": 1.0,
+          "backward_jumps": 1,
+          "reached_eos": true
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+{
+  "id": "b73e14ae4c534b1f92c6f76a207eba5c",
+  "text": "Two real GPU requests passed. The first included execution tracing; the warm request took 3.80 seconds to produce 3.4 seconds of audio, giving an RTF of 1.12. Queue wait is reported separately. All eight metric tests passed, and empty input was rejected correctly.",
+  "status": "completed",
+  "message": "Generating speech and acoustic features\u2026",
+  "metrics": {
+    "inference_seconds": 242.87892059999987,
+    "synthesis_seconds": 427.6695970999999,
+    "latency_seconds": 429.1379077,
+    "queue_seconds": 0.011368000000004486,
+    "audio_seconds": 24.6821,
+    "rtf": 17.32711548450091,
+    "rtfx": 0.05771301062167555,
+    "requests_per_second": 0.002338253658387072
+  },
+  "audio": "/runs/b73e14ae4c534b1f92c6f76a207eba5c.wav",
+  "plot": "/runs/b73e14ae4c534b1f92c6f76a207eba5c.png",
+  "report": "/runs/b73e14ae4c534b1f92c6f76a207eba5c.json",
+  "checkpoint": "checkpoints/tacotron-20180906/model.ckpt",
+  "seed": 2026,
+  "gpu_verified": true,
+  "trace_included": true,
+  "sample_rate": 20000,
+  "mel_shape": [
+    1,
+    1000,
+    80
+  ],
+  "reconstruction": "Upstream librosa Griffin-Lim, original power and iterations",
+  "segments": [
+    {
+      "text": "two real gee pee you requests passed.",
+      "audio_seconds": 2.9973
+    },
+    {
+      "text": "the first included execution tracing;",
+      "audio_seconds": 2.7053
+    },
+    {
+      "text": "the warm request took three point eighty seconds to produce three point four",
+      "audio_seconds": 5.04985
+    },
+    {
+      "text": "seconds of audio,",
+      "audio_seconds": 1.3859
+    },
+    {
+      "text": "giving an ar tee eff of one point twelve.",
+      "audio_seconds": 2.95245
+    },
+    {
+      "text": "queue wait is reported separately.",
+      "audio_seconds": 2.63035
+    },
+    {
+      "text": "all eight metric tests passed,",
+      "audio_seconds": 2.47215
+    },
+    {
+      "text": "and empty input was rejected correctly.",
+      "audio_seconds": 3.2288
+    }
+  ],
+  "peak_headroom": 0.92,
+  "transcript_evaluation": null
+}

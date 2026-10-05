@@ -1,0 +1,8 @@
+{
+  "samples": 8,
+  "frames": 3436,
+  "max_frames": 619,
+  "num_mels": 80,
+  "num_freq": 1025,
+  "sample_rate": 20000
+}

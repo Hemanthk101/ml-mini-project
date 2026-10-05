@@ -1,0 +1,42 @@
+[
+  {
+    "package": "cudatoolkit-10.0.130-0.conda",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/cudatoolkit-10.0.130-0.conda",
+    "sha256": "6fb67872b83a63f59a46509e8c28709b25a73363279ab085c0f049d055751844",
+    "dlls": [
+      "Library/bin/nvToolsExt64_1.dll",
+      "Library/bin/nppisu64_100.dll",
+      "Library/bin/cufftw64_100.dll",
+      "Library/bin/nppc64_100.dll",
+      "Library/bin/nvblas64_100.dll",
+      "Library/bin/cudart64_100.dll",
+      "Library/bin/nppicom64_100.dll",
+      "Library/bin/nppitc64_100.dll",
+      "Library/bin/nppicc64_100.dll",
+      "Library/bin/nvrtc-builtins64_100.dll",
+      "Library/bin/nppim64_100.dll",
+      "Library/bin/nppidei64_100.dll",
+      "Library/bin/npps64_100.dll",
+      "Library/bin/nppial64_100.dll",
+      "Library/bin/nvvm64_33_0.dll",
+      "Library/bin/nvrtc64_100_0.dll",
+      "Library/bin/nppist64_100.dll",
+      "Library/bin/nppig64_100.dll",
+      "Library/bin/nppif64_100.dll",
+      "Library/bin/curand64_100.dll",
+      "Library/bin/cusparse64_100.dll",
+      "Library/bin/cublas64_100.dll",
+      "Library/bin/nvgraph64_100.dll",
+      "Library/bin/cufft64_100.dll",
+      "Library/bin/cusolver64_100.dll"
+    ]
+  },
+  {
+    "package": "cudnn-7.6.5-cuda10.0_0.conda",
+    "url": "https://repo.anaconda.com/pkgs/main/win-64/cudnn-7.6.5-cuda10.0_0.conda",
+    "sha256": "291587fe1bbbff0dc3154f3f5cf9e011b8264d124dedad5f257efa39726a4557",
+    "dlls": [
+      "Library/bin/cudnn64_7.dll"
+    ]
+  }
+]

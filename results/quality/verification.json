@@ -1,0 +1,14 @@
+{
+  "actual_gpu_synthesis": true,
+  "sample_rate": 20000,
+  "channels": 1,
+  "duration_seconds": 24.6821,
+  "peak_pcm": 30145,
+  "peak_limit_pcm": 30145,
+  "before_wer": 0.7391304347826086,
+  "after_wer": 0.06521739130434782,
+  "after_f1": 0.9347826086956522,
+  "before_deletions": 17,
+  "after_deletions": 0,
+  "scope": "One paragraph; independent Whisper tiny.en ASR; not MOS"
+}

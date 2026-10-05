@@ -1,0 +1,30 @@
+{
+  "id": "98ed6ed71f9849ca8c876c5cbddab03d",
+  "text": "Hello. Welcome to the speech synthesis lab.",
+  "status": "completed",
+  "message": "Generating speech and acoustic features\u2026",
+  "metrics": {
+    "inference_seconds": 32.499528200000015,
+    "synthesis_seconds": 32.713177900000005,
+    "latency_seconds": 34.34533920000001,
+    "queue_seconds": 0.013562500000006139,
+    "audio_seconds": 3.4,
+    "rtf": 9.621522911764707,
+    "rtfx": 0.10393365054270681,
+    "requests_per_second": 0.030568720747854945
+  },
+  "audio": "/runs/98ed6ed71f9849ca8c876c5cbddab03d.wav",
+  "plot": "/runs/98ed6ed71f9849ca8c876c5cbddab03d.png",
+  "report": "/runs/98ed6ed71f9849ca8c876c5cbddab03d.json",
+  "checkpoint": "checkpoints/tacotron-20180906/model.ckpt",
+  "seed": 2026,
+  "gpu_verified": true,
+  "trace_included": true,
+  "sample_rate": 20000,
+  "mel_shape": [
+    1,
+    1000,
+    80
+  ],
+  "transcript_evaluation": null
+}

@@ -1,0 +1,57 @@
+{
+  "id": "d01a0c91fd7447049cd2878ffeb298b8",
+  "text": "Hello. Welcome to the speech synthesis lab.",
+  "status": "completed",
+  "message": "Generating speech and acoustic features\u2026",
+  "metrics": {
+    "inference_seconds": 1.6987782000000067,
+    "synthesis_seconds": 6.598821999999998,
+    "latency_seconds": 6.853031799999997,
+    "queue_seconds": 0.00201669999999865,
+    "audio_seconds": 3.2183,
+    "rtf": 2.0504061150296735,
+    "rtfx": 0.4877082606562203,
+    "requests_per_second": 0.15154219950166867
+  },
+  "audio": "/runs/d01a0c91fd7447049cd2878ffeb298b8.wav",
+  "plot": "/runs/d01a0c91fd7447049cd2878ffeb298b8.png",
+  "report": "/runs/d01a0c91fd7447049cd2878ffeb298b8.json",
+  "checkpoint": "checkpoints/tacotron-20180906/model.ckpt",
+  "seed": 2026,
+  "gpu_verified": true,
+  "trace_included": false,
+  "sample_rate": 20000,
+  "mel_shape": [
+    1,
+    245,
+    80
+  ],
+  "reconstruction": "Upstream librosa Griffin-Lim, original power and iterations",
+  "segments": [
+    {
+      "text": "hello.",
+      "audio_seconds": 0.45945,
+      "attention": {
+        "decoder_steps": 20,
+        "eos_attention": 0.9358258247375488,
+        "character_coverage": 0.8571428571428571,
+        "backward_jumps": 0,
+        "reached_eos": true
+      }
+    },
+    {
+      "text": "welcome to the speech synthesis lab.",
+      "audio_seconds": 2.53885,
+      "attention": {
+        "decoder_steps": 49,
+        "eos_attention": 0.9993731379508972,
+        "character_coverage": 0.972972972972973,
+        "backward_jumps": 1,
+        "reached_eos": true
+      }
+    }
+  ],
+  "peak_headroom": 0.92,
+  "attention_stop": true,
+  "transcript_evaluation": null
+}

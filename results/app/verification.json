@@ -1,0 +1,22 @@
+{
+  "interface": "Only a text box and Generate button; audio shown after completion",
+  "actual_gpu_synthesis_passed": true,
+  "wav_pcm_valid": true,
+  "nonzero_audio": true,
+  "acoustic_plot_valid": true,
+  "metric_formulas_consistent": true,
+  "transcript_scores": "Unmeasured; no transcript supplied",
+  "job_id": "98ed6ed71f9849ca8c876c5cbddab03d",
+  "metrics": {
+    "inference_seconds": 32.499528200000015,
+    "synthesis_seconds": 32.713177900000005,
+    "latency_seconds": 34.34533920000001,
+    "queue_seconds": 0.013562500000006139,
+    "audio_seconds": 3.4,
+    "rtf": 9.621522911764707,
+    "rtfx": 0.10393365054270681,
+    "requests_per_second": 0.030568720747854945
+  },
+  "gpu_compute_node_count": 6597,
+  "model_load_seconds": 106.3863179
+}

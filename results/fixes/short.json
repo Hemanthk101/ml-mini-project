@@ -1,0 +1,47 @@
+{
+  "id": "0ec3fd500ef54c40a8a924fef7b713ac",
+  "text": "The quick brown fox jumps over the lazy dog.",
+  "status": "completed",
+  "message": "Generating speech and acoustic features\u2026",
+  "metrics": {
+    "inference_seconds": 17.1230963,
+    "synthesis_seconds": 25.471464499999996,
+    "latency_seconds": 26.054298800000005,
+    "queue_seconds": 0.0005360000000038667,
+    "audio_seconds": 3.2352,
+    "rtf": 7.8732271575173085,
+    "rtfx": 0.1270127204503691,
+    "requests_per_second": 0.0392596193281309
+  },
+  "audio": "/runs/0ec3fd500ef54c40a8a924fef7b713ac.wav",
+  "plot": "/runs/0ec3fd500ef54c40a8a924fef7b713ac.png",
+  "report": "/runs/0ec3fd500ef54c40a8a924fef7b713ac.json",
+  "checkpoint": "checkpoints/tacotron-20180906/model.ckpt",
+  "seed": 2026,
+  "gpu_verified": true,
+  "trace_included": true,
+  "sample_rate": 20000,
+  "mel_shape": [
+    1,
+    305,
+    80
+  ],
+  "reconstruction": "Upstream librosa Griffin-Lim, original power and iterations",
+  "segments": [
+    {
+      "text": "the quick brown fox jumps over the lazy dog.",
+      "audio_seconds": 3.2352,
+      "attention": {
+        "decoder_steps": 61,
+        "eos_attention": 0.9996379613876343,
+        "character_coverage": 0.9777777777777777,
+        "backward_jumps": 2,
+        "reached_eos": true
+      }
+    }
+  ],
+  "peak_headroom": 0.92,
+  "attention_stop": true,
+  "phrase_attempts": 1,
+  "transcript_evaluation": null
+}
