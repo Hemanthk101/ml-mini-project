@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Text to Speech</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <main>
+    <form id="form">
+      <label for="text" class="sr-only">Text to convert to speech</label>
+      <textarea id="text" maxlength="300" placeholder="Type your text here…" required></textarea>
+      <button id="generate" type="submit" disabled>Generate</button>
+    </form>
+    <p id="status" role="status" aria-live="polite" hidden></p>
+    <audio id="player" controls preload="metadata" aria-label="Generated speech" hidden></audio>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
